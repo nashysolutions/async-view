@@ -4,7 +4,7 @@
 
 ## Usage
 
-To fetching an image and cache it (in memory only), whilst receiving `isFetching` feedback. The following uses `URLSession.shared` and any errors fail silently (isFetching becomes false).
+Use the following to fetch an image and cache it (in memory only), whilst receiving `isFetching` feedback. The following uses `URLSession.shared` and any errors fail silently (isFetching becomes false).
 
 ```
 private func makeImageView() -> some View {
