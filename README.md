@@ -4,9 +4,9 @@
 
 ## Usage
 
-Use the following to fetch an image and cache it (in memory only), whilst receiving `isFetching` feedback. The following uses `URLSession.shared` and any errors fail silently (isFetching becomes false).
+Use the following to fetch an image and cache it (in memory only), whilst receiving `isFetching` feedback. The following uses `URLSession.shared` and any errors fail silently (`isFetching` becomes false).
 
-```
+```swift
 private func makeImageView() -> some View {
     RemoteImageView(
         url: URL(string: "http://url/image.png")!,
